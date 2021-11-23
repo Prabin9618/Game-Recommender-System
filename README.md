@@ -22,10 +22,11 @@ This design has been deployed on Heroku and is available via the link: https://g
 ![image](https://user-images.githubusercontent.com/35566625/142247621-52eefa53-9bfd-4893-8f1e-394972aed2e0.png)
 The site inputs one game from a list of games(almost all PC games are listed here). Upon clicking on Recommend button, a list of 5 games will be recommended based on genre/similarity of games. Also, a list of 3 games will be presented, these being the games published by the same publisher(e.g EA, Rockstar etc.)
 ![image](https://user-images.githubusercontent.com/35566625/142251417-9a135bf2-ec12-42a2-b6fe-9bc07e643628.png)
-![image](https://user-images.githubusercontent.com/35566625/142251502-d9b81866-a970-47b7-8b74-52fb503385d1.png)
+![image](https://user-images.githubusercontent.com/35566625/143002101-0bc69ddb-1836-483c-a9bc-ac6ab6729163.png)
 
-**E.g:** If you enter Grand Theft Auto V, it will recommend you games similar to that(open world games, with no time constraints, multiplayer interactions, quests etc.). So, it is recommending games like Sea of Thieves, Green Hell(which are also open world and involves multiplayer interactions etc.). 
-On the bottom of the site, it recommends you games from same publisher(Rockstar Games like GTA Vice City). These are not open world games and hence, not prioritized in recommendations.
+
+**E.g:** If you enter Grand Theft Auto V, it will recommend you games similar to that(open world games, with no time constraints, multiplayer interactions, quests etc.) like Sea of Thieves, Neo Cab etc.
+On the bottom of the site, it recommends you games from same publisher(Rockstar Games like GTA Vice City).
 
 ### Steps performed:
 1. A list of all PC games with description, Metascore etc. was extracted from Metacritic site and saved in a .csv file. Pre-processing of this dataset was performed and null or missing values cleaned
