@@ -60,5 +60,6 @@ So, it can be said that the vectors are 55% similar to each other
 The closer the distance, more similar are the points and vice-versa
 
 **Please Note:**
-1.The site might run a bit slow as it's working on a free account on Heroku.
-2.If images are not loading, means RAWG website is down and so is not responding to API calls.
+1. The site might run a bit slow as it's working on a free account on Heroku.
+
+2. If images are not loading, means RAWG website is down and so is not responding to API calls.
